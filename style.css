@@ -1,0 +1,132 @@
+body {
+	background-color:black;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.page, .input {
+	display:flex;
+	justify-content: center;
+}
+
+.ghost {
+	position: relative;
+	top: 200px;
+}
+
+#action {
+	text-align: center;
+}
+
+.head,
+.torso,
+.upper_body,
+.left_arm,
+.right_arm,
+.tail1,
+.tail2,
+.tail3 {
+	background-color: white;
+}
+
+.head {
+	height: 150px;
+	width: 150px;
+	border-radius: 100px 100px 0 0;
+}
+
+.eyes,
+.mouth_space {
+	display: flex;
+	justify-content: space-around;
+}
+
+.eyes {
+	position: relative;
+	top: 30px;
+	margin: 0px 20px;
+}
+
+.left_eye, 
+.right_eye {
+	height: 30px;
+	width: 20px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: black;
+}
+
+/*.eyes:hover > .left_eye{
+	transition: 2s ease-in-out;
+	height: 10px;
+}
+
+.eyes:hover > .right_eye{
+	transition: 2s ease-in-out;
+	height: 10px;
+}
+*/
+.mouth_space{
+	position:relative;
+	top: 50px;
+}
+.mouth {
+	height: 10px;
+	width: 30px;
+	border-radius: 30px;
+	background-color: black;
+}
+
+/*.mouth_space > .mouth:hover {
+	transition: 3s;
+	height: 40px;
+	border-radius: 30px;
+}*/
+
+.upper_body {
+	height: 40px;
+	width: 150px;
+	display: flex;
+	position: relative;
+	top: -30px;
+}
+
+.left_arm,
+.right_arm {
+	height:70px;
+	width: 50px;
+	border-radius: 50px;
+}
+
+.right_arm  {
+	position: relative;
+	left: 50px;
+}
+
+/*.upper_body:hover > .left_arm{
+	transition: 2s ease-in-out;
+	transform-origin: top;
+    transform: rotate(120deg);
+}*/
+
+/*.upper_body:hover > .right_arm{
+	transition: 2s ease-in-out;
+	transform-origin: top;
+    transform: rotate(-120deg);
+}*/
+
+.lower_body {
+	display: flex;
+	height: 40px;
+	position: relative;
+	top: -30px;
+}
+
+.tail1,
+.tail2,
+.tail3 {
+	width: 50px;
+	border-radius: 0px 0px 25px 25px;
+}
